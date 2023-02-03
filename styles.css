@@ -1,0 +1,98 @@
+/* CSS */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .tab-link {
+    cursor: pointer;
+    padding: 15px 20px;
+    background-color: #ddd;
+    border-radius: 5px 5px 0 0;
+    color: #333;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .current {
+    background-color: #ddd;
+  }
+  
+  .tab-content {
+    display: block;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .current {
+    display: block;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="number"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  tr, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #ddd;
+    font-weight: bold;
+  }
+  
+  .resume {
+    font-weight: bold;
+  }
+  
